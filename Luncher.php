@@ -1,6 +1,6 @@
 <?php
-define('BOT_TOKEN', '**TOKEN**');
-define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
+define('BOT_TOKEN', '**311630365:AAFJtZxJPX1GMSh2OwlDhT95l-rHT2iK0-A**');
+define('API_URL', 'https://api.preview.openshift.com/oapi/v1/namespaces/mahdi/buildconfigs/maxbot/webhooks/74a86473ca135bba/github.'/');
 
 function apiRequestWebhook($method, $parameters) {
   if (!is_string($method)) {
